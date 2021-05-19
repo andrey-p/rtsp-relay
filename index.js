@@ -99,3 +99,5 @@ module.exports = (app, server) => {
     },
   };
 };
+
+module.exports.InboundStreamWrapper = InboundStreamWrapper;
