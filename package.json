@@ -12,6 +12,7 @@
   "repository": "https://github.com/k-yle/rtsp-relay",
   "files": [
     "browser",
+    "InboundStreamWrapper.js",
     "index.d.ts",
     "index.js"
   ],
