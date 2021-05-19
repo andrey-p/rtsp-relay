@@ -65,3 +65,5 @@ class InboundStreamWrapper {
     }
   }
 }
+
+module.exports = InboundStreamWrapper;
