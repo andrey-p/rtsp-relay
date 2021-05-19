@@ -1,3 +1,6 @@
+const { path: ffmpegPath } = require('@ffmpeg-installer/ffmpeg');
+const { spawn } = require('child_process');
+
 class InboundStreamWrapper {
   /** @param {Options} props */
   start({ url, additionalFlags = [] }) {
